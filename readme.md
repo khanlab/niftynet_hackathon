@@ -16,9 +16,9 @@
 
 ### For Windows/Linux/Mac **WITH** GPU (modern Nvidia GPU (>= GTX 1050))
 
-- step 1: install Anaconda(64bit) (or Miniconda)
+- step 1: install Anaconda(python 3.7,64bit) (or Miniconda)
 
-    [Anaconda3-2018.12 for windows](https://repo.anaconda.com/archive/Anaconda3-2018.12-Windows-x86_64.exe)
+    [Anaconda download](https://www.anaconda.com/distribution/#download-section)
 
 - step 2: run the following command in your terminal
 
@@ -39,9 +39,9 @@
 
 ### For Windows/Linux/Mac **WITHOUT** GPU
 
-- step 1: install Anaconda(64bit) (or Miniconda)
+- step 1: install Anaconda(python 3.7,64bit) (or Miniconda)
     
-    [Anaconda3-2018.12 for windows](https://repo.anaconda.com/archive/Anaconda3-2018.12-Windows-x86_64.exe)
+    [Anaconda download](https://www.anaconda.com/distribution/#download-section)
 
 - step 2: run the following command in your terminal
     ```bash

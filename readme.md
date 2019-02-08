@@ -76,7 +76,7 @@ net_segment inference -c ~/niftynet/extensions/dense_vnet_abdominal_ct/config.in
 
 You can use itk-snap to check the segmented results:
 
-![](itk-snap-show-results.png)
+![](pics/itk-snap-show-results.png)
 
 
 ---

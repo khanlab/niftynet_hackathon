@@ -1,6 +1,11 @@
 
 ## NiftyNet Materials
 
+### Help
+
+- [NiftyNet Documentation](https://niftynet.readthedocs.io/en/dev/)
+- [NiftyNet Mailing List](https://groups.google.com/forum/#!forum/niftynet)
+
 ### Youtube
 
 - [NiftyNet: Deep Learning platform for medical image analysis - Jorge Cardoso (UCL)](https://www.youtube.com/watch?v=2OweR-sUNfQ&t=772s)

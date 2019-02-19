@@ -86,8 +86,21 @@ You can use itk-snap to check the segmented results:
 ### Run NiftyNet in singularity container(note: Linux with GPU **only**)
 
 ```bash
-# install singualrity first:
-# sudo apt-get install -y singularity-container
+# install singularity first
+sudo apt-get install -y singularity-container
+
+# pull sinularity image
 singularity pull --name niftynet_gpu.simg shub://yinglilu/niftynet_gpu_singularity
-singularity exec --nv niftynet_gpu.simg <NiftyNet command>
+
+# run NiftNet command: singularity exec --nv niftynet_gpu.simg <NiftyNet command> 
+
+# for instance:
+singularity exec --nv niftynet_gpu.simg net_download dense_vnet_abdominal_ct_model_zoo
+
+singularity exec --nv niftynet_gpu.simg net_segment inference -c ~/niftynet/extensions/dense_vnet_abdominal_ct/config.ini
+
+# Singularity bind your host $HOME to container's $HOME automatically. 
+# The segmentation output of this example application should be located at
+~/niftynet/models/dense_vnet_abdominal_ct/segmentation_output/100__niftynet_out.nii.gz
+
 ```

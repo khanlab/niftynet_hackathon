@@ -1,6 +1,11 @@
 
 ## NiftyNet Materials
 
+### Help
+
+- [NiftyNet Documentation](https://niftynet.readthedocs.io/en/dev/)
+- [NiftyNet Mailing List](https://groups.google.com/forum/#!forum/niftynet)
+
 ### Youtube
 
 - [NiftyNet: Deep Learning platform for medical image analysis - Jorge Cardoso (UCL)](https://www.youtube.com/watch?v=2OweR-sUNfQ&t=772s)
@@ -11,6 +16,10 @@
 
 - [Gibson and Li et al. 2017](https://reader.elsevier.com/reader/sd/pii/S0169260717311823?token=8FC4F5CFA48C0A830D84AA6D8995223F83400652CFC6CD97E864CAC631DB4154E8045BF53F865551B86B75666765CA92)
 - [Li et al. 2017](https://arxiv.org/pdf/1707.01992.pdf)
+
+### Demos (from niftynet github)
+
+ - https://github.com/NifTK/NiftyNet/tree/dev/demos
 
 ## Install NiftyNet
 

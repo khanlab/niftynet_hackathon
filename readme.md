@@ -23,7 +23,7 @@
 
 ## Install NiftyNet
 
-### For Windows/Linux/Mac **WITH** GPU (modern Nvidia GPU (>= GTX 1050))
+### For Windows/Linux/Mac **WITH** GPU (modern Nvidia GPU)
 
 - step 1: install Anaconda(python 3.7,64bit) (or Miniconda)
 
@@ -33,15 +33,14 @@
 
     ```bash
     #create virtual env(A virual env will not mess your installed stuff)
-    conda create -n niftynet_env python=3.6 conda pip tensorflow-gpu
+    conda create -n niftynet_env python=3.6 conda pip tensorflow-gpu==1.12.0
 
     #enter virtual env. For Linux/Mac use `source activate niftynet_env`
     activate niftynet_env
-    pip install niftynet
-    pip install opencv-python
-    pip install SimpleITK
-    pip install scikit-image
-
+    conda install -c anaconda opencv==3.4.2
+    conda install -c simpleitk simpleitk==1.2.0
+    conda install -c anaconda scikit-image==0.14.2
+    pip install niftynet==0.5.0
     #leave virtual env. For Linux/Mac, use `source deactivate`
     deactivate
     ```
@@ -55,15 +54,14 @@
 - step 2: run the following command in your terminal
     ```bash
     #create virtual env(A virual env will not mess your installed stuff)
-    conda create -n niftynet_env python=3.6 conda pip tensorflow
+    conda create -n niftynet_env python=3.6 conda pip tensorflow==1.12.0
 
     #enter virtual env. For Linux/Mac use `source activate niftynet_env`
     activate niftynet_env
-    pip install niftynet
-    pip install opencv-python
-    pip install SimpleITK
-    pip install scikit-image
-
+    conda install -c anaconda opencv==3.4.2
+    conda install -c simpleitk simpleitk==1.2.0
+    conda install -c anaconda scikit-image==0.14.2
+    pip install niftynet==0.5.0
     #leave virtual env. For Linux/Mac: use `source deactivate`
     deactivate
     ```

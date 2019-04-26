@@ -72,6 +72,7 @@
 activate niftynet_env
 mkdir test_niftynet
 cd test_niftynet
+# note: the data and modell will be saved to ~/niftynet, not your current directory!
 net_download dense_vnet_abdominal_ct_model_zoo
 net_segment inference -c ~/niftynet/extensions/dense_vnet_abdominal_ct/config.ini
 

@@ -28,6 +28,8 @@
 - step 1: install Anaconda(python 3.7,64bit) (or Miniconda)
 
     [Anaconda download](https://www.anaconda.com/distribution/#download-section)
+    
+    Note: When installing, check add path!
 
 - step 2: run the following command in your terminal
 
@@ -50,6 +52,8 @@
 - step 1: install Anaconda(python 3.7,64bit) (or Miniconda)
     
     [Anaconda download](https://www.anaconda.com/distribution/#download-section)
+    
+    Note: When installing, check add path!
 
 - step 2: run the following command in your terminal
     ```bash
@@ -72,7 +76,7 @@
 activate niftynet_env
 mkdir test_niftynet
 cd test_niftynet
-# note: the data and modell will be saved to ~/niftynet, not your current directory!
+# note: the data and model will be saved to ~/niftynet, not your current directory!
 net_download dense_vnet_abdominal_ct_model_zoo
 net_segment inference -c ~/niftynet/extensions/dense_vnet_abdominal_ct/config.ini
 

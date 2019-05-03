@@ -31,17 +31,17 @@
     
     Note: When installing, check add path!
 
-- step 2: run the following command in your terminal
+- step 2: run the following command line by line in your terminal
 
     ```bash
     #create virtual env(A virual env will not mess your installed stuff)
-    conda create -n niftynet_env python=3.6 conda pip tensorflow-gpu==1.12.0
+    conda create -n niftynet_env -y python=3.6 conda pip tensorflow-gpu==1.12.0
 
     #enter virtual env. For Linux/Mac use `source activate niftynet_env`
     activate niftynet_env
-    conda install -c anaconda opencv==3.4.2
-    conda install -c simpleitk simpleitk==1.2.0
-    conda install -c anaconda scikit-image==0.14.2
+    conda install -y -c anaconda opencv==3.4.2
+    conda install -y -c simpleitk simpleitk==1.2.0
+    conda install -y -c anaconda scikit-image==0.14.2
     pip install niftynet==0.5.0
     #leave virtual env. For Linux/Mac, use `source deactivate`
     deactivate
@@ -55,16 +55,16 @@
     
     Note: When installing, check add path!
 
-- step 2: run the following command in your terminal
+- step 2: run the following command line by line in your terminal
     ```bash
     #create virtual env(A virual env will not mess your installed stuff)
-    conda create -n niftynet_env python=3.6 conda pip tensorflow==1.12.0
+    conda create -n niftynet_env -y python=3.6 conda pip tensorflow==1.12.0
 
     #enter virtual env. For Linux/Mac use `source activate niftynet_env`
     activate niftynet_env
-    conda install -c anaconda opencv==3.4.2
-    conda install -c simpleitk simpleitk==1.2.0
-    conda install -c anaconda scikit-image==0.14.2
+    conda install -y -c anaconda opencv==3.4.2
+    conda install -y -c simpleitk simpleitk==1.2.0
+    conda install -y-c anaconda scikit-image==0.14.2
     pip install niftynet==0.5.0
     #leave virtual env. For Linux/Mac: use `source deactivate`
     deactivate

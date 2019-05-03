@@ -30,6 +30,8 @@
     [Anaconda download](https://www.anaconda.com/distribution/#download-section)
     
     Note: When installing, check add path!
+    
+    ![](pics/anaconda_check_path.png)
 
 - step 2: run the following command line by line in your terminal
 
@@ -54,6 +56,8 @@
     [Anaconda download](https://www.anaconda.com/distribution/#download-section)
     
     Note: When installing, check add path!
+    
+    ![](pics/anaconda_check_path.png)
 
 - step 2: run the following command line by line in your terminal
     ```bash

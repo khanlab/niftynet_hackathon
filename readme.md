@@ -106,7 +106,7 @@ You can use itk-snap to check the segmented results:
 sudo apt-get install -y singularity-container
 
 # pull sinularity image
-singularity pull --name deeplearning_gpu_gpu.simg shub://yinglilu/deeplearning_gpu_singularity
+singularity pull --name deeplearning_gpu.simg shub://yinglilu/deeplearning_gpu_singularity:1.0.0
 
 # run NiftNet command: singularity exec --nv niftynet_gpu.simg <NiftyNet command> 
 
